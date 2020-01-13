@@ -60,4 +60,6 @@ ext {
     rulesVersion = '1.0.1'
     timberVersion = '4.7.1'
     truthVersion = '0.44'
+
+    hamcrestVersion = "1.3"
 }
