@@ -74,6 +74,8 @@ dependencies {
     // Androidx Test
     testImplementation "androidx.test:core-ktx:$androidXTestCoreVersion"
     testImplementation "androidx.test.ext:junit-ktx:$androidXTestExtKotlinRunnerVersion"
+    testImplementation "androidx.arch.core:core-testing:$archTestingVersion"
+
 
     // Robolectric
     testImplementation 'org.robolectric:robolectric:4.3'
