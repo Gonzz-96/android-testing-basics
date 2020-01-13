@@ -62,4 +62,6 @@ ext {
     truthVersion = '0.44'
 
     hamcrestVersion = "1.3"
+    androidXTestCoreVersion = "1.1.0"
+    androidXTestExtKotlinRunnerVersion = "1.1.0"
 }
