@@ -13,6 +13,7 @@ import org.junit.Test
 
 import org.junit.Assert.*
 
+@ExperimentalCoroutinesApi
 class DefaultTasksRepositoryTest {
 
     private val task1 = Task("Title1", "Description1")
@@ -42,7 +43,6 @@ class DefaultTasksRepositoryTest {
     }
 
     @Test
-    @ExperimentalCoroutinesApi
     fun getTasks_requestsAllTasksFromRemoteDataSource() = runBlockingTest {
         // When tasks are requested from the tasks repository
         val tasks = tasksRepository.getTasks(forceUpdate = true) as Result.Success
